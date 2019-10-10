@@ -8,13 +8,13 @@ int main(){
 
 
  char frase[2000000];
-    int quantid;
+    int quant;
 
     scanf("%s", &frase);
 
-    quantid = contar(frase);
+    quant = contar(frase);
 
-    printf("%d", quantid);
+    printf("%d", quant);
 
     return 0;
     system("PAUSE");
