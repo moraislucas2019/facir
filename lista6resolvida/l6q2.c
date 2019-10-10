@@ -2,12 +2,7 @@
 
 
 int main(){
-
-
-
-
-
- char frase[2000000];
+  char frase[2000000];
     int quant;
 
     scanf("%s", &frase);
@@ -25,13 +20,6 @@ int contar(char *str)
        while  ( str[total] != '\0')
         total++;
     return total;
-
-
-
-
-
-
-
 
 
 return 0;
